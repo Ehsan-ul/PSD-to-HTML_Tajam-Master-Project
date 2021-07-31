@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0ch;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Menu start */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #11bbb6;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #11bbb6;
+}
+
+/* Menu end  */
+
+.custom {
+  font-size: 20px;
+  color: #377dff;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
