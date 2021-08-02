@@ -179,8 +179,72 @@ ul {
   font-size: 16px;
   padding-top: 35px;
 }
-
 /* Video part css end */
+
+/* Service part css start */
+#service-part{
+  padding: 70px 0;
+  
+}
+
+.service-head h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+.service-head p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #716e78;
+  position: relative;
+
+}
+.service-head p::after{
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: #78767c;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
+}
+
+/* service item start */
+
+.service-text{
+  padding-top: 85px;
+}
+.service-text img{
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.service-text h5{
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #413d4b;
+}
+.service-text p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  padding: 0 55px;
+  line-height: 21px;
+}
+/* service item end */
+
+
+
+/* Service part css end */
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
