@@ -182,12 +182,11 @@ ul {
 /* Video part css end */
 
 /* Service part css start */
-#service-part{
+#service-part {
   padding: 70px 0;
-  
 }
 
-.service-head h2{
+.service-head h2 {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: bold;
@@ -195,16 +194,15 @@ ul {
   text-transform: uppercase;
 }
 
-.service-head p{
+.service-head p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 300;
   color: #716e78;
   position: relative;
-
 }
-.service-head p::after{
+.service-head p::after {
   position: absolute;
   content: '';
   width: 50px;
@@ -217,14 +215,14 @@ ul {
 
 /* service item start */
 
-.service-text{
+.service-text {
   padding-top: 85px;
 }
-.service-text img{
+.service-text img {
   padding-bottom: 20px;
   cursor: pointer;
 }
-.service-text h5{
+.service-text h5 {
   margin: 0;
   padding-bottom: 20px;
   font-family: 'Roboto', sans-serif;
@@ -232,7 +230,7 @@ ul {
   font-weight: 700;
   color: #413d4b;
 }
-.service-text p{
+.service-text p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -241,8 +239,6 @@ ul {
   line-height: 21px;
 }
 /* service item end */
-
-
 
 /* Service part css end */
 
