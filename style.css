@@ -49,11 +49,10 @@ ul {
 }
 
 .banner-text {
-  /* banner text select korar jonne. power baraye dey z-index */
   position: relative;
   z-index: 99;
-  padding-top: 230px;
-  padding-bottom: 205px;
+  padding-top: 180px;
+  padding-bottom: 170px;
 }
 
 .banner-text h2 {
@@ -81,7 +80,7 @@ ul {
   line-height: 21px;
   font-weight: 300;
   color: #ffffff;
-  padding: 55px 115px 50px 115px;
+  padding: 55px 210px 55px 210px;
 }
 .banner-text a {
   border: 1px solid #11bbb6;
@@ -97,6 +96,51 @@ ul {
   width: 100%;
   z-index: 100;
 }
+
+/* banner slick-slider css starts */
+.banner-slider {
+  z-index: 100;
+  position: relative;
+}
+
+.slick-dots {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+  width: 19px;
+  height: 19px;
+  line-height: 18px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.slick-dots li button {
+  color: transparent;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  border-radius: 50%;
+  border: none;
+  background: #11bbb6;
+  opacity: 0;
+  transition: 1s;
+}
+
+.slick-dots li.slick-active button {
+  opacity: 1;
+}
+
+ul.slick-dots {
+  padding-left: 10px;
+}
+/* banner slick-slider css ends */
 /* Banner part css end */
 
 /* About part css start */
