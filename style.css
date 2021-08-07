@@ -130,7 +130,7 @@ ul {
   border: none;
   background: #11bbb6;
   opacity: 0;
-  transition: 1s;
+  transition: 3s;
 }
 
 .slick-dots li.slick-active button {
