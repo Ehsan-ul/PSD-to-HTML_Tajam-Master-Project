@@ -399,8 +399,39 @@ button:focus {
   position: absolute;
   bottom: 5px;
 }
-
 /* team-part css ends */
+
+/* project part css strats */
+#project-part {
+  padding: 70px 0;
+}
+
+.project-part-left h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+.project-part-right p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #413d4b;
+}
+
+.project-button a {
+  border: 1px solid #11bbb6;
+  text-transform: uppercase;
+  padding: 15px;
+  color: #11bbb6;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 70px;
+}
+/* project part css ends*/
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
