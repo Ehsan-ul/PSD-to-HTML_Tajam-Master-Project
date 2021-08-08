@@ -433,5 +433,75 @@ button:focus {
 }
 /* project part css ends*/
 
+/* team-two css strats */
+#team-two {
+  background: url(./images/team-two-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+}
+
+#team-two::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(31, 26, 64, 0.9);
+}
+
+.team-slider-text {
+  position: relative;
+  z-index: 100;
+  color: #ffffff;
+}
+
+.team-slider-text .quote-icon {
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.team-slider-text p {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  padding: 0 90px 45px 90px;
+  margin: 0;
+}
+
+.team-slider-text h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.team-slider-text h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 45px;
+}
+
+.team-slider-img {
+  position: relative;
+  z-index: 100;
+}
+
+.team-slider-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.slider-img {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* team-two css ends */
+
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
