@@ -477,12 +477,14 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .team-slider-text h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 13px;
   padding-bottom: 45px;
+  text-transform: uppercase;
 }
 
 .team-slider-img {
@@ -499,6 +501,38 @@ button:focus {
 .slider-img {
   width: 500px;
   margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+
+.text-slide {
+  z-index: 100;
+  position: relative;
+}
+
+.team-arrow-left {
+  position: absolute;
+  z-index: 100;
+  color: #9f9f9f;
+  top: 79%;
+  left: 28%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.team-arrow-right {
+  position: absolute;
+  z-index: 100;
+  color: #9f9f9f;
+  top: 79%;
+  right: 27.5%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.slick-center .team-slider-img img {
+  border: 3px solid #ffffff;
+  transform: rotate(360deg);
+  transition: 0.5s;
 }
 
 /* team-two css ends */
