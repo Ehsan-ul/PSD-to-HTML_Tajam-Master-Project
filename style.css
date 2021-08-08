@@ -140,6 +140,11 @@ ul {
 ul.slick-dots {
   padding-left: 10px;
 }
+
+button:focus {
+  /* outline: 1px dotted; */
+  outline: 0px auto -webkit-focus-ring-color;
+}
 /* banner slick-slider css ends */
 /* Banner part css end */
 
@@ -283,8 +288,108 @@ ul.slick-dots {
   line-height: 21px;
 }
 /* service item end */
-
 /* Service part css end */
+
+/* team-part css strats */
+#team-part {
+  background: url(./images/team-part-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 70px 0;
+}
+
+#team-part::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(31, 26, 64, 0.9);
+}
+
+.team-top-text {
+  z-index: 100;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.team-top-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.team-top-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+}
+
+.team-top-text p::after {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: #78767c;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35px;
+}
+
+.team-member {
+  z-index: 120;
+  position: relative;
+  text-align: center;
+}
+
+.team-card {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.team-member h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.team-member p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.team-bottom-text {
+  z-index: 120;
+  position: relative;
+  text-align: center;
+}
+
+.team-bottom-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+  padding: 65px 0 30px 0;
+}
+
+.team-bottom-text a {
+  border: 1px solid #11bbb6;
+  text-transform: uppercase;
+  padding: 15px;
+  color: #11bbb6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* team-part css ends */
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
