@@ -534,8 +534,35 @@ button:focus {
   transform: rotate(360deg);
   transition: 0.5s;
 }
-
 /* team-two css ends */
+
+/* Contact part css strats */
+#contact-part {
+  padding: 70px 0;
+}
+
+.contact-left h3,
+.contact-right h3 {
+  font-family: 'Playfair Display', serif;
+  color: #413d4b;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+.contact-left a {
+  border: 1px solid #11bbb6;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  color: #11bbb6;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Contact part css ends */
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
