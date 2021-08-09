@@ -561,8 +561,119 @@ button:focus {
   display: inline-block;
   margin-top: 20px;
 }
-
 /* Contact part css ends */
+
+/* footer-part css strats */
+#footer-part {
+  background: url(./images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#footer-part::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 26, 64, 0.9);
+}
+
+.footer-top-wrap {
+  z-index: 100;
+  position: relative;
+  color: white;
+  padding: 70px 0;
+}
+
+.footer-top-left img {
+  padding-bottom: 30px;
+}
+
+.footer-top-left p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  padding-right: 70px;
+}
+
+.footer-top-middle h4,
+.footer-top-right h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.footer-top-middle p {
+  font-family: 'Roboto', sans-serif;
+  font-style: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.footer-top-right input {
+  background: none;
+  color: #ffffff;
+  border-radius: 0;
+}
+.btn-custom {
+  background-color: rgba(160, 153, 179, 0.6);
+  border-radius: 0;
+  padding: 5px 20px;
+}
+
+.btn-custom .plane-icon {
+  font-size: 22px;
+}
+
+.footer-top-right a {
+  color: #ffffff;
+}
+
+.footer-top-right ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.footer-top-right ul {
+  padding: 20px 0;
+}
+
+.footer-bottom-wrap {
+  z-index: 100;
+  position: relative;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.footer-bottom-left ul,
+.footer-bottom-right p {
+  padding: 0;
+  margin-top: 50px;
+}
+
+.footer-bottom-left ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-bottom-left a {
+  color: white;
+}
+/* footer-part css ends */
 
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
