@@ -256,4 +256,31 @@ $(document).ready(function () {
     resetCallback: function () {},
   });
   // typed JS ends
+
+  // Smooth scrolling JS Starts
+  $('body').scrollspy({ target: '.navbar', offset: 50 });
+  // Smooth scrolling JS Ends
+
+  //Scroll Spy JS: animation scroll js Starts
+  var html_body = $('html, body');
+  $('nav a').on('click', function () {
+    if (
+      location.pathname.replace(/^\//, '') ==
+        this.pathname.replace(/^\//, '') &&
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        html_body.animate(
+          {
+            scrollTop: target.offset().top - 50,
+          },
+          1500
+        );
+        return false;
+      }
+    }
+  });
+  //Scroll Spy JS: animation scroll js Ends
 });
