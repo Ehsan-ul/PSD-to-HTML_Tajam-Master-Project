@@ -7,8 +7,8 @@ $(document).ready(function () {
     arrows: false,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 2000,
-    speed: 3000,
+    autoplaySpeed: 9000,
+    speed: 6000,
   });
 
   // team slick slider
@@ -215,4 +215,45 @@ $(document).ready(function () {
     },
   };
   scrolltotop.init();
+
+  // typed JS Starts
+  $('.typed').typed({
+    strings: [
+      'Full Stack Developer',
+      'Software Engineer',
+      'Front End Web Developer',
+      'Back End Web Developer',
+    ],
+    // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+    stringsElement: null,
+    // typing speed
+    typeSpeed: 50,
+    // time before typing starts
+    startDelay: 500,
+    // backspacing speed
+    backSpeed: 50,
+    // time before backspacing
+    backDelay: 1000,
+    // loop
+    loop: true,
+    // false = infinite
+    loopCount: 100,
+    // show cursor
+    showCursor: false,
+    // character for cursor
+    cursorChar: '|',
+    // attribute to type (null == text)
+    attr: null,
+    // either html or text
+    contentType: 'html',
+    // call when done callback function
+    callback: function () {},
+    // starting callback function before each string
+    preStringTyped: function () {},
+    //callback for every typed string
+    onStringTyped: function () {},
+    // callback for reset
+    resetCallback: function () {},
+  });
+  // typed JS ends
 });
