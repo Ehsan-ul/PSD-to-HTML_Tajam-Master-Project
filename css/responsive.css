@@ -1,0 +1,366 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-nav {
+    background-color: rgb(31, 26, 64);
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #ffffff;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background: url('../images/scrollTop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .about-text h2 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .about-text p {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .about-text a {
+    width: 100%;
+    text-align: center;
+  }
+  #video-part {
+    padding: 50px 0;
+  }
+
+  .banner-text h2::after {
+    margin-top: 40px;
+  }
+  .banner-text p {
+    padding: 55px 30px 55px 30px;
+    margin: 0;
+  }
+  .service-text {
+    padding-top: 50px;
+  }
+
+  .service-text p {
+    padding: 0;
+  }
+
+  .team-bottom-text a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .project-button a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .team-arrow-left,
+  .team-arrow-right {
+    display: none !important;
+  }
+
+  .contact-left a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .contact-left h3,
+  .contact-right h3 {
+    text-align: center;
+  }
+
+  .footer-top-left {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px;
+  }
+
+  .footer-top-middle {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+
+  .footer-top-left p {
+    padding-right: 0;
+    padding-left: 30px;
+  }
+
+  .footer-top-right {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .form-inline {
+    padding-left: 110px;
+  }
+  .footer-top-wrap {
+    padding: 0;
+  }
+
+  .footer-bottom-left {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .footer-bottom-right {
+    text-align: center !important;
+    padding: 0;
+  }
+  .footer-bottom-left ul,
+  .footer-bottom-right p {
+    font-size: 10px;
+  }
+  .footer-bottom-left {
+    padding: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+  .footer-bottom-right {
+    padding: 0;
+    margin-top: 0;
+    text-align: right;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-nav {
+    background-color: rgb(31, 26, 64);
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #ffffff;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background: url('../images/scrollTop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .about-text h2 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .about-text p {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .about-text a {
+    width: 100%;
+    text-align: center;
+  }
+  #video-part {
+    padding: 90px 0;
+  }
+
+  .banner-text h2::after {
+    margin-top: 40px;
+  }
+  .banner-text p {
+    padding: 55px 30px 55px 30px;
+    margin: 0;
+  }
+  .service-text {
+    padding-top: 50px;
+  }
+
+  .service-text p {
+    padding: 0;
+  }
+
+  .team-bottom-text a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .project-button a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .team-arrow-left {
+    top: 83.5%;
+    left: 6%;
+  }
+  .team-arrow-right {
+    top: 83.5%;
+    right: 5%;
+  }
+
+  .contact-left a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .contact-left h3,
+  .contact-right h3 {
+    text-align: center;
+  }
+
+  .footer-top-left {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px;
+  }
+
+  .footer-top-middle {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+
+  .footer-top-left p {
+    padding-right: 0;
+    padding-left: 30px;
+  }
+
+  .footer-top-right {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .form-inline {
+    padding-left: 110px;
+  }
+  .footer-top-wrap {
+    padding: 0;
+  }
+
+  .footer-bottom-left {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .footer-bottom-right {
+    text-align: center !important;
+    padding: 0;
+  }
+  .footer-bottom-left ul,
+  .footer-bottom-right p {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      text-align: center;
+    }
+    .navbar-nav {
+      background-color: rgb(31, 26, 64);
+    }
+    .navbar-light .navbar-toggler {
+      background-color: #ffffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+      background: url('../images/scrollTop.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .banner-text {
+      padding-top: 140px;
+    }
+
+    .about-text h2 {
+      text-align: center;
+      padding-top: 30px;
+    }
+    .about-text p {
+      text-align: center;
+      padding-top: 10px;
+    }
+    .about-text a {
+      width: 100%;
+      text-align: center;
+    }
+    #video-part {
+      padding: 100px 0;
+    }
+    .service-text {
+      padding: 15px 150px;
+    }
+    .service-head p {
+      padding-bottom: 30px;
+    }
+    .team-bottom-text a {
+      display: block;
+      width: 100%;
+    }
+    .project-button a {
+      width: 100%;
+    }
+    .team-arrow-left {
+      top: 79.5%;
+      left: 15%;
+    }
+    .team-arrow-right {
+      top: 80%;
+      right: 13.5%;
+    }
+    .contact-left a {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .contact-left h3,
+    .contact-right h3 {
+      text-align: center;
+    }
+
+    .footer-top-left {
+      text-align: right;
+      padding-right: 30px;
+      padding-top: 50px;
+    }
+
+    .footer-top-middle {
+      padding-left: 30px;
+      padding-top: 50px;
+    }
+
+    .footer-top-left p {
+      padding-right: 0;
+      padding-left: 30px;
+    }
+
+    .footer-top-right {
+      text-align: center;
+      padding-top: 40px;
+    }
+
+    .form-inline {
+      padding-left: 200px;
+    }
+    .footer-top-wrap {
+      padding: 0;
+    }
+
+    .footer-bottom-left {
+      padding-top: 40px;
+      text-align: center;
+    }
+    .footer-bottom-right {
+      text-align: center !important;
+      padding: 0;
+    }
+    .footer-bottom-left ul,
+    .footer-bottom-right p {
+      padding: 0;
+      margin-top: 0;
+    }
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+    }
+  }
+}

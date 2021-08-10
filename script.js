@@ -21,9 +21,36 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 3000,
+
+    // team slick slider: responsive
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 
-  // team-two slider
+  // team-two slick slider
   $('.text-slide').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -31,6 +58,7 @@ $(document).ready(function () {
     fade: false,
     asNavFor: '.slider-img',
   });
+
   $('.slider-img').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -41,6 +69,33 @@ $(document).ready(function () {
     centerMode: true,
     centerPadding: '0px',
     focusOnSelect: true,
+
+    // team-two slick slider: responsive
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 
   // venobox
@@ -73,7 +128,7 @@ $(document).ready(function () {
       scrollduration: 1e3,
       fadeduration: [500, 100],
     },
-    controlHTML: '<img src="images/scrollTopp.png" />',
+    controlHTML: '<img src="images/scrollTop.png" />',
     controlattrs: { offsetx: 5, offsety: 5 },
     anchorkeyword: '#top',
     state: { isvisible: !1, shouldvisible: !1 },

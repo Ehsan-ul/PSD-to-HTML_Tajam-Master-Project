@@ -29,7 +29,7 @@ ul {
 }
 
 .nav-bg {
-  background-color: rgba(31, 26, 64, 0.9);
+  background-color: rgba(31, 26, 64);
 }
 
 .navbar {
@@ -102,7 +102,7 @@ ul {
 .navbar-custom {
   position: fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 200;
 }
 
 /* banner slick-slider css starts */
