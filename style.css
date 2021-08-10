@@ -27,6 +27,14 @@ ul {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #11bbb6;
 }
+
+.nav-bg {
+  background-color: rgba(31, 26, 64, 0.9);
+}
+
+.navbar {
+  transition: 1s;
+}
 /* Menu end  */
 
 /* Banner part css start */
@@ -99,7 +107,7 @@ ul {
 
 /* banner slick-slider css starts */
 .banner-slider {
-  z-index: 100;
+  z-index: 90;
   position: relative;
 }
 

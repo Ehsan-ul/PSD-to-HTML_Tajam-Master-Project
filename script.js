@@ -52,4 +52,16 @@ $(document).ready(function () {
     spinColor: '#377dff',
     overlayColor: '#34495e',
   });
+
+  // menu sticky top
+  $(window).scroll(function () {
+    var scrolling = $(this).scrollTop();
+    var sticky = $('.sticky-top');
+
+    if (scrolling >= 140) {
+      sticky.addClass('nav-bg');
+    } else {
+      sticky.removeClass('nav-bg');
+    }
+  });
 });
